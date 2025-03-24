@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: ['images.gr-assets.com'], // Ajoute ton domaine ici
+  },
+  // Autres options de configuration si nécessaire
 };
 
 export default nextConfig;
